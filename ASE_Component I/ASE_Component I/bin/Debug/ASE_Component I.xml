@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASE_Component I</name>
+    </assembly>
+    <members>
+        <member name="T:ASE_Component_I.Circle">
+            <summary>
+            making circle
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Circle.s">
+            <summary>
+            initialized variables for circle
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Circle.n">
+            <summary>
+            initialized variables for circle
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Circle.j">
+            <summary>
+            initialized variables for circle
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Circle.saved_values(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            passing parameters inside saved_values
+            </summary>
+            <param name="k"></param>
+            <param name="h"></param>
+            <param name="u"></param>
+        </member>
+        <member name="M:ASE_Component_I.Circle.Draw_shape(System.Drawing.Graphics,System.Drawing.Color,System.Boolean)">
+             <summary>
+            passing parameters for draw_shape for circle
+             </summary>
+             <param name="g"></param>
+        </member>
+        <member name="M:ASE_Component_I.Circle.Draw_shape(System.Drawing.Graphics)">
+            <summary>
+            overiding draw_shape method for circle
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:ASE_Component_I.Form1">
+            <summary>
+            class form 1
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Form1.positionXaxis">
+            <summary>
+            position of axis
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Form1.positionYaxis">
+            <summary>
+            position of axis
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Form1.fill">
+            <summary>
+            initializing component
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Form1.pentomove(System.Int32,System.Int32)">
+            <summary>
+             this is method to move pen
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.pentodraw(System.Int32,System.Int32)">
+            <summary>
+            this is method for drawing in pen
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            action listener in button to pass the parameters
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.clear">
+            <summary>
+            clear button
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Form1.reset">
+            <summary>
+            reset the coordinate to origin
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Form1.rectangle_draw(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            defining length of rectangle
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <param name="d"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.circle_draw(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            defining point of circle
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.triangle_draw(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            trianle_draw class to create object
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+            <param name="w"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            reset button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            clear button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            save button while saving the button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.loadToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            load button to load the file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.cmdTextKeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ASE_Component_I.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ASE_Component_I.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ASE_Component_I.Rectangle">
+            <summary>
+            initialized rectangle classs
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Rectangle.s">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Rectangle.n">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Rectangle.j">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Rectangle.y">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Rectangle.saved_values(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            parameters are passed inside saved_values
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <param name="d"></param>
+        </member>
+        <member name="M:ASE_Component_I.Rectangle.Draw_shape(System.Drawing.Graphics)">
+            <summary>
+            overriding draw shape method
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:ASE_Component_I.Rectangle.Draw_shape(System.Drawing.Graphics,System.Drawing.Color,System.Boolean)">
+            <summary>
+            draw_shape method for rectangle
+            </summary>
+            <param name="g"></param>
+            <param name="colour"></param>
+            <param name="fill"></param>
+        </member>
+        <member name="T:ASE_Component_I.Shape">
+            <summary>
+            abstract class called shape
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Shape.Draw_shape(System.Drawing.Graphics)">
+            <summary>
+            drawshap method for abstract class
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="F:ASE_Component_I.Square.s">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Square.n">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Square.j">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Square.y">
+            <summary>
+            variables for rectangle class
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Square.saved_values(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            parameters are passed inside saved_values
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <param name="d"></param>
+        </member>
+        <member name="M:ASE_Component_I.Square.Draw_shape(System.Drawing.Graphics)">
+            <summary>
+            overriding draw shape method
+            </summary>
+            <param name="g"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ASE_Component_I.Square.Draw_shape(System.Drawing.Graphics,System.Drawing.Color,System.Boolean)" -->
+        <member name="T:ASE_Component_I.Triangle">
+            <summary>
+            for triangle
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Triangle.val1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Triangle.val2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Triangle.bas">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Triangle.perp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ASE_Component_I.Triangle.hypt">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ASE_Component_I.Triangle.saved_values(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            initialized parameters for saved_values
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+            <param name="w"></param>
+        </member>
+        <member name="M:ASE_Component_I.Triangle.Draw_shape(System.Drawing.Graphics)">
+            <summary>
+            overriding draw_shape method
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:ASE_Component_I.Triangle.Draw_shape(System.Drawing.Graphics,System.Drawing.Color,System.Boolean)">
+            <summary>
+            draw_shape method for triangle
+            </summary>
+            <param name="g"></param>
+            <param name="colour"></param>
+            <param name="fill"></param>
+        </member>
+        <member name="T:ASE_Component_I.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ASE_Component_I.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ASE_Component_I.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
