@@ -8,45 +8,26 @@ using System.Threading.Tasks;
 namespace ASE_Component_I
 {
     /// <summary>
-    /// making circle
+    /// class to draw circle
     /// </summary>
-    public class Circle: Shape
+    class Circle: Shape
     {
+        private int r, x, y;
         /// <summary>
-        /// initialized variables for circle
+        /// 
         /// </summary>
-       public int s, n, j;
-        /// <summary>
-        /// passing parameters inside saved_values
-        /// </summary>
-        /// <param name="k"></param>
-        /// <param name="h"></param>
-        /// <param name="u"></param>
-        public void saved_values(int k, int h, int u) {
-            n = k;
-            j = h;
-            s = u;
+        /// <param name="a">origin x- coordinate</param>
+        /// <param name="b">origin y- coordinate</param>
+        /// <param name="c">radius of circle</param>
+        public void saved_values(int a, int b, int c) {
+            x = a;
+            y = b;
+            r = c;
         }
-        /// <summary>
-        ///passing parameters for draw_shape for circle
-        /// </summary>
-        /// <param name="g"></param>
-        public void Draw_shape(Graphics g, Color colour, bool fill)
-        {
-
-            Pen mew2 = new Pen(colour, 3);
-            SolidBrush mew3 = new SolidBrush(colour);
-            if (fill) { g.FillEllipse(mew3, n, j, s, s); }
-            else { g.DrawEllipse(mew2, n, j, s, s); }
-
-        }
-        /// <summary>
-        /// overiding draw_shape method for circle
-        /// </summary>
-        /// <param name="g"></param>
         public override void Draw_shape(Graphics g)
         {
-            throw new NotImplementedException();
+            Pen mew2 = new Pen(Color.Black,2);
+            g.DrawEllipse(mew2, x, y, r, r);
         }
     }
 }

@@ -8,14 +8,14 @@ using System.Drawing;
 namespace ASE_Component_I
 {
     /// <summary>
-    /// abstract class called shape
+    /// parent class for all the shapes and drawing
     /// </summary>
-   public abstract class Shape
+   abstract class Shape
     {
         /// <summary>
-        /// drawshap method for abstract class
+        /// method for overriding
         /// </summary>
-        /// <param name="g"></param>
+        /// <param name="g">object for Graphics</param>
         public abstract void Draw_shape(Graphics g);
     }
 }
